@@ -1,0 +1,32 @@
+# ignore everything related to virtualenv
+.Python
+bin/
+include/
+lib/
+share/
+local/
+
+
+#disregard python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+pip-selfcheck.json
+.cache/
+
+#disregard coverage data
+htmlcov/
+.coverage
+
+
+#ignore idea genereated files
+.idea/
+
+#ignore requirements.txt
+requirements.txt
+
+# ignore img/ -- NB shared images should be in tests/img/
+/img/
+
+# Random OS X finder cruft
+.DS_Store

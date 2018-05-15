@@ -1,0 +1,6 @@
+[run]
+omit =
+	MicroscopeInterface/src/LeicaUI.py
+	*/__init__.py
+
+

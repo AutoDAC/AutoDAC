@@ -1,0 +1,6 @@
+pyautogui
+pywinauto
+psutil
+numpy
+opencv-python
+wxPython
